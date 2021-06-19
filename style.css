@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(209, 105, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container {
+    width: 40vw;
+    height: 90vh;
+    margin: 5vh 30vw;
+    background-color: white;
+}
+
+/* start title */
+.title {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 15%;
+    padding: 0.5vh 0 0 1vw;
+}
+.leb0 {
+    font-size: 4vmin;
+    /* background-color: aqua; */
+}
+/* end title */
+
+/* start form */
+#form {
+    width: 100%;
+    height: 70%;
+    padding:  0 10%;
+    /* background-color: aqua; */
+    position: relative;
+}
+#form > div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.leb1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vmin;
+    color: gray;
+    padding: 2% 0%;
+}
+.f-stl {
+    width: 100%;
+    height: 5vh;
+    padding: 3vh;
+}
+.check {
+    color: green;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    top: 7vh;
+    visibility: hidden;
+}
+.multiple {
+    color: red;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    top: 47px;
+    visibility: hidden;
+}
+#form > div > small{
+    visibility: hidden;
+    color: red;
+    font-size: 10px;
+}
+.div{
+    height: 15vh;
+}
+/* end form */
+
+
+/* start submition */
+.sub-btn {
+    width: 100%;
+    height: 15%;
+    /* background-color: aquamarine; */
+}
+#submit {
+    width: 60%;
+    height: 50%;
+    background-color: rgb(181, 26, 181);
+    color: white;
+    cursor: pointer;
+    margin: 3.5% 20%;
+    border: none;
+    border-radius: 5px;
+    font-size: 4vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit:hover {
+    background-color: rgb(40, 236, 236);
+}
+/* end submition */
+#seccess {
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    padding: 10vh 5vw;
+    margin: 30vh 35vw;
+    background-color: rgb(228, 201, 235);
+    border-radius: 5px;
+    box-shadow: aqua;
+    text-align: center;
+    visibility: hidden;
+    z-index: 3;
+}
+
+#seccess > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+}

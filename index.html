@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Form validation</title>
+        <script type="text/javascript" src="script.js" defer></script>
+    </head>
+    <body>
+    <div class="container" id="main">
+        <div class="title">
+            <lebel class="leb0">Create account</lebel>
+        </div>
+        <form id="form" action="file:///home/tariq/Desktop/javascript_projects/Form_validation/index.html?" method="GET">
+            <div class="div">
+                <lebel class="leb1">Username</lebel>
+                <input type="text" placeholder="Username" class="f-stl" id="user">
+                <span class="check" id="check1">&#10003;</span>
+                <span class="multiple" id="multiple1">&#10005;</span>
+                <small id="userError"></small>
+            </div>
+            <div class="div">
+                <lebel class="leb1">Email</lebel>
+                <input type="email" placeholder="Email" class="f-stl" id="email">
+                <span class="check" id="check2">&#10003;</span>
+                <span class="multiple" id="multiple2">&#10005;</span>
+                <small id="emailError"></small>
+            </div>
+            <div class="div">
+                <lebel class="leb1">Password</lebel>
+                <input type="password" placeholder="Password" class="f-stl" id="password">
+                <span class="check" id="check3">&#10003;</span>
+                <span class="multiple" id="multiple3">&#10005;</span>
+                <small id="passError"></small>
+            </div>
+            <div class="div">
+                <lebel class="leb1">Password check</lebel>
+                <input type="password" placeholder="Password check" class="f-stl" id="pass-check">
+                <span class="check" id="check4">&#10003;</span>
+                <span class="multiple" id="multiple4">&#10005;</span>
+                <small id="passError2"></small>
+            </div>
+            <div class="sub-btn">
+                <button type="button" id="submit" >Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="seccess">
+        <p>Account successfully created  <br>You welcome with us &#128526;</p>
+    </div>
+</body>
+</html>
